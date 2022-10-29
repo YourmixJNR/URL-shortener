@@ -169,7 +169,7 @@ input[placeholder] {
     font-weight: 500;
     font-size: 20px;
     line-height: 19px;
-    opacity: 0.7;
+    opacity: 0.9;
     color: var(--dark-transp);
     padding-left: 60px;
 }
@@ -189,7 +189,15 @@ input[placeholder] {
     }
 
     input[placeholder] {
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .second-input-field::placeholder {
+        font-size: 15px;
+    }
+
+    .file-palaceholder {
+        font-size: 15px;
     }
 
     .first-button {
